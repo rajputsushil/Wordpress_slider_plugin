@@ -308,7 +308,7 @@
                     }
                 }
             }
-        
+            
             wp_send_json_success(['message' => 'Slider updated successfully', 'uploaded_images' => $uploaded_images]);
         }
     }
