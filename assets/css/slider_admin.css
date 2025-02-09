@@ -1,0 +1,140 @@
+.image_slider_container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+}
+.image_slider_container h2, .image_slider_container h3 {
+    text-align: center;
+    color: #333;
+}
+input[type="file"] {
+    display: none;
+    margin: 10px auto;
+}
+.edit_browse{
+    display: block !important;
+}
+
+.edit_slider_list td:first-child{
+    display: flex;
+    justify-content:space-between;
+}
+.img_uploader{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #005177;
+}
+#save_image{
+    margin-left: 0;
+    margin-top: 50px;
+}
+.input_image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.edit_image_update{
+    display: none;
+}
+.show_img_input {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.slider_list {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.slider_list table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.slider_list th, .slider_list td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.slider_list th {
+    background: #0073aa;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.slider_list td {
+    vertical-align: middle;
+}
+
+.slider_img {
+    display: flex;
+    gap: 10px;
+}
+
+.slider_img img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.short_code span {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #f4f4f4;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.slider_btn_del {
+    text-align: center;
+    display: flex;
+}
+
+.slider_del_btn {
+    padding: 6px 12px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+}
+
+.slider_del_btn:hover {
+    background: #c82333;
+}
